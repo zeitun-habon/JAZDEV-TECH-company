@@ -1,0 +1,120 @@
+/* body styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* header styles */
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* jumbotron styles */
+.jumbotron {
+  background-image: url('../images/bg-image.avif');
+  background-size: cover;
+  color: #fff;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron .container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.jumbotron p {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+/* services styles */
+.services {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.services-heading {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.services .card {
+  border: none;
+}
+
+.services .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.services .card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.services .card-text {
+  font-size: 16px;
+}
+
+/* portfolio styles */
+.portfolio {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.portfolio-heading {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.portfolio-subheading {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.portfolio .card {
+  border: none;
+}
+
+.portfolio .card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.portfolio .card-text {
+  font-size: 16px;
+}
